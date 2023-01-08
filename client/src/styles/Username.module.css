@@ -1,0 +1,24 @@
+.glass {
+    background: rgba(255, 255, 255, 0.56);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #0e111170;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    @apply border-4 border-gray-50 shrink-0 h-3/4 w-[30%] py-20 px-7 min-w-max
+}
+
+.profile_img {
+    @apply rounded border-gray-50 w-[200px] rounded-full shadow-lg cursor-pointer
+}
+
+.textbox {
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+}
+
+.btn {
+    @apply border-2 bg-indigo-500 w-3/4 py-4 rounded-lg text-gray-50 shadow-sm text-gray-100
+}
+
+.btn:hover {
+    background-color: #ff6a6a;
+}
